@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Niklas Riekenbrauck "nikriekp@gmail.com"
+MAINTAINER Niklas Riekenbrauck "nikriek@gmail.com"
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
 COPY . /app
